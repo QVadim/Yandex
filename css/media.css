@@ -1,0 +1,270 @@
+@media (max-width: 375px) {
+   [class*="__container"] {
+      width: 375px;
+      margin-left: 0;
+   }
+
+   .header {
+      max-width: 375px;
+      height: 660px;
+   }
+
+   .header__content-image {
+      margin-top: 32px;
+   }
+
+   .header {
+      padding: 0px 32px 0px 32px;
+      display: block;
+      width: 1018px;
+      border-radius: 10px;
+      background: linear-gradient(180deg, rgba(255, 201, 241, 0) 0%, #ffdefc 100%);
+   }
+
+   .header__content-image {
+      width: 113px;
+      height: 32px;
+   }
+
+   .header__content-title {
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 100%;
+      width: 290px;
+      height: 98px;
+   }
+
+   .header__content-price {
+      width: 311px;
+      height: 59px;
+      margin-top: 35px;
+   }
+
+   .header__picture-Mobil {
+      display: block;
+      margin-top: 30px;
+   }
+
+   .header__content-text {
+      font-size: 18px;
+   }
+
+   .header__content-button-small {
+      position: fixed;
+      display: block;
+      left: 32px;
+      top: 520px;
+      z-index: 100;
+      border-radius: 36px;
+      background: #FFDE40;
+      box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+      border: none;
+      padding: 24px 48px;
+      margin-top: 44px;
+   }
+
+   .header__content-button,
+   .header__content-button-link {
+      display: none;
+   }
+
+   .header__content-button-link-small {
+      color: #21201F;
+      text-align: right;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 22px;
+   }
+
+   .header__picture {
+      display: none;
+   }
+
+   /* main */
+   .main {
+      position: relative;
+      z-index: -1;
+      top: 0;
+   }
+
+   .main__Advantages-title {
+      font-size: 32px;
+      margin-top: 41px;
+   }
+
+   .main__Exclusive-title {
+      margin-left: -400px;
+   }
+
+   .main__Advantages {
+      margin: 0px 32px;
+   }
+
+   .main__Advantages-elements-one,
+   .main__Advantages-elements-two,
+   .main__Advantages-elements-three,
+   .main__Advantages-elements-fore {
+      display: flex;
+      width: 311px;
+      height: 95px;
+   }
+
+   .main__Advantages-elements-one img,
+   .main__Advantages-elements-two img,
+   .main__Advantages-elements-three img,
+   .main__Advantages-elements-fore img {
+      width: 83px;
+      height: 83px;
+      margin-right: 16px;
+   }
+
+   .main__Advantages-elements-text {
+      font-size: 16px;
+      align-self: center;
+   }
+
+   /* main__Exclusive */
+
+   .main__Exclusive {
+      margin: 0;
+   }
+
+   .main__Exclusive-title {
+      margin-left: 32px;
+      margin-right: 32px;
+      font-size: 32px;
+      width: 311px;
+      height: 119px;
+   }
+
+   .main__Exclusive-text {
+      margin: 32px;
+      width: 311px;
+      height: 125px;
+      font-size: 16px;
+   }
+
+   .main__Exclusive-picture {
+      display: none;
+   }
+
+   /* slider */
+   .main__Exclusive-slider-container {
+      width: 344px;
+      height: 344px;
+      display: block;
+      margin: 16px;
+      overflow: hidden;
+   }
+
+   .main__Exclusive-slider-line {
+      display: flex;
+      width: 1552px;
+      height: 344px;
+      position: relative;
+      left: 0;
+      transition: all ease 1s;
+   }
+
+   /* main__Exclusive-slider-button */
+
+   .main__Exclusive-slider-button {
+      text-align: center;
+      display: flex;
+   }
+
+   .main__Exclusive-slider-next {
+      margin-left: 12px;
+      display: block;
+   }
+
+   .main__Exclusive-slider-next:hover {
+      opacity: 0.7;
+   }
+
+   .main__Exclusive-slider-prev {
+      display: block;
+      margin-left: 133px;
+   }
+
+   .main__Exclusive-slider-prev:hover {
+      opacity: 0.7;
+   }
+
+   /* main__buySubscription */
+
+   .main__buySubscription {
+      max-width: 375px;
+   }
+
+   .main__buySubscription-joinClub {
+      max-width: 375px;
+
+      margin-left: 12px;
+      margin-top: 72px;
+      margin-right: 32px;
+      display: block;
+   }
+
+   .main__buySubscription-joinClub-titles {
+      max-width: 343px;
+      margin-left: 32px;
+   }
+
+   .main__buySubscription-joinClub-title {
+      font-size: 32px;
+      font-style: normal;
+      width: 343px;
+   }
+
+   .main__buySubscription-joinClub-text {
+      font-size: 16px;
+      font-style: normal;
+   }
+
+   .main__buySubscription-ScooterPic {
+      display: none;
+   }
+
+   .main__buySubscription-alreadyInClub {
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      top: 0px;
+      margin-left: 0px;
+   }
+
+   .main__buySubscription-alreadyInClub img {
+      width: 384px;
+      height: 384px;
+   }
+
+   .main__buySubscription-alreadyInClub-titles {
+      margin-left: 32px;
+      width: 311px;
+   }
+
+   .main__buySubscription-alreadyInClub-titles-title {
+      font-size: 32px;
+      font-style: normal;
+   }
+
+   .main__buySubscription-alreadyInClub-titles-text {
+      font-size: 16px;
+      font-style: normal;
+   }
+
+   .main__buySubscription-alreadyInClub-titles-button {
+      margin-top: 32px;
+      margin-left: 12px;
+   }
+
+   .footer__Additional_option {
+      margin: 0px;
+      width: 311px;
+      height: 168px;
+   }
+
+}
